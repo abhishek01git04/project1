@@ -1,0 +1,121 @@
+3 already collected, 117 to go. AI model: ollama
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 7121.30it/s]
+[1/117] fake det 0.88 | news gdelt:4 | fc 0 | ai mixed | 162.5s | This video shows EAM S Jaishankar saying Trump is 
+[2/117] fake det 0.69 | news google-news:3 | fc 0 | ai refuted | 31.2s | A poor puffed rice vendor is being attacked by ano
+[3/117] fake det 0.27 | news google-news:8 | fc 0 | ai supported | 21.6s | A video appears to show a huge crowd of people in 
+[4/117] fake det 0.89 | news google-news:4 | fc 0 | ai refuted | 21.6s | People can get a pair of Bose QuietComfort headpho
+[5/117] fake det 0.69 | news google-news:8 | fc 0 | ai refuted | 40.8s | A video shows Mark Zuckerberg saying “there is no 
+[6/117] fake det 0.28 | news google-news:7 | fc 0 | ai refuted | 23.0s | These visuals show a real shaligram rock that was 
+[7/117] fake det 0.69 | news google-news:8 | fc 1 | ai refuted | 21.2s | Video shows Independence day celebration In Baloch
+[8/117] real det 0.27 | news google-news:7 | fc 0 | ai supported | 32.1s | Earthquake hits central Japan, injuring more than 
+[9/117] real det 0.27 | news google-news:7 | fc 0 | ai supported | 20.5s | Cancelled AI data centre 'victory for people power
+[10/117] fake det 0.27 | news google-news:7 | fc 2 | ai refuted | 33.0s | Visuals of an infant who was abandoned by her pare
+[11/117] real det 0.04 | news google-news:8 | fc 0 | ai supported | 44.4s | Neil Bush, one of George W. Bush's brothers, annou
+[12/117] fake det 0.69 | news google-news:8 | fc 0 | ai supported | 24.7s | During the 81st United Nations General Assembly, P
+[13/117] real det 0.27 | news google-news:8 | fc 0 | ai refuted | 34.1s | A photograph from November authentically depicts P
+[14/117] fake det 0.27 | news google-news:8 | fc 0 | ai mixed | 56.1s | The video shows a real incident of a girl being ki
+[15/117] real det 0.02 | news google-news:8 | fc 0 | ai supported | 32.4s | U.S. President Donald Trump said he feels "badly" 
+[16/117] real det 0.27 | news google-news:7 | fc 0 | ai supported | 43.2s | Saudi oil sites, troops and Riyadh airport targete
+[17/117] real det 0.27 | news google-news:1 | fc 0 | ai supported | 17.6s | Crypto industry braces for reckoning over Trump ti
+[18/117] fake det 0.27 | news gdelt:0 | fc 0 | ai refuted | 18.5s | None of a list of taxes, including income tax, exi
+[19/117] fake det 0.09 | news gdelt:8 | fc 5 | ai refuted | 69.9s | Indian Army Chief General Dhiraj Seth stated that 
+[20/117] fake det 0.27 | news gdelt:0 | fc 0 | ai unverifiable | 94.5s | An explosion in Rotherham in which a man died is l
+[21/117] real det 0.26 | news google-news:8 | fc 1 | ai supported | 31.6s | U.S. President Donald Trump said that if Democrats
+[22/117] fake det 0.27 | news google-news:8 | fc 0 | ai refuted | 23.2s | This video shows bullet train coaches arriving in 
+[23/117] real det 0.27 | news google-news:2 | fc 0 | ai supported | 20.0s | The U.S. Department of Defense awarded a $41 milli
+[24/117] real det 0.69 | news gdelt:4 | fc 0 | ai refuted | 90.1s | Woman Thar Driver Rams Scooter, Kills Man In Kanpu
+[25/117] real det 0.27 | news google-news:3 | fc 0 | ai supported | 69.6s | The Kmart retail chain sold pet monkeys in the 196
+[26/117] fake det 0.69 | news google-news:8 | fc 0 | ai refuted | 24.5s | This video shows a newlywed woman driving a train 
+[27/117] fake det 0.04 | news google-news:8 | fc 0 | ai supported | 18.8s | A video shows a Moroccan migrant filming himself w
+[28/117] fake det 0.27 | news google-news:8 | fc 1 | ai supported | 18.3s | The video shows the aftermath of the flash floods 
+[29/117] real det 0.69 | news google-news:2 | fc 0 | ai refuted | 31.4s | People for the Ethical Treatment of Animals euthan
+[30/117] real det 0.27 | news google-news:8 | fc 0 | ai refuted | 22.3s | Electric vehicle manufacturer Tesla posted videos 
+[31/117] real det 0.02 | news google-news:8 | fc 0 | ai supported | 20.1s | On Oct. 25, U.S. President Donald Trump said at a 
+[32/117] real det 0.27 | news google-news:7 | fc 0 | ai supported | 25.2s | Tech Mahindra’s ex-Asia head shot dead over parkin
+[33/117] real det 0.27 | news gdelt:8 | fc 0 | ai refuted | 55.2s | The official poverty rate in the U.S. hit an all-t
+[34/117] fake det 0.65 | news google-news:8 | fc 0 | ai supported | 34.8s | Images show reactions of IIT Bombay students to Sa
+[35/117] real det 0.29 | news google-news:7 | fc 0 | ai supported | 26.2s | 'Fight against Gyanesh Kumar will continue': CJP's
+[36/117] fake det 0.84 | news google-news:8 | fc 5 | ai supported | 26.4s | Turning Point USA CEO Erika Kirk and political his
+[37/117] real det 0.23 | news google-news:8 | fc 0 | ai refuted | 42.9s | Under Democratic Gov. Tim Walz and Lt. Gov. Peggy 
+[38/117] real det 0.69 | news google-news:7 | fc 0 | ai supported | 31.2s | Chev Clarke beats Chris Billam-Smith at London's C
+[39/117] fake det 0.32 | news google-news:8 | fc 1 | ai refuted | 32.4s | These videos show locals in Arunachal Pradesh figh
+[40/117] fake det 0.69 | news google-news:8 | fc 1 | ai mixed | 51.4s | The video shows PM Modi speaking out against the u
+[41/117] fake det 0.27 | news google-news:7 | fc 2 | ai refuted | 29.5s | Currys is giving away Samsung S25 Ultra smartphone
+[42/117] fake det 0.27 | news google-news:8 | fc 1 | ai refuted | 44.7s | The viral video shows Saudi Arabia intercepting a 
+[43/117] real det 0.27 | news google-news:7 | fc 0 | ai supported | 32.2s | Chronic pain affects one in two women in midlife, 
+[44/117] real det 0.02 | news google-news:1 | fc 1 | ai refuted | 42.1s | U.S. President Donald Trump said, “We're making mo
+[45/117] real det 0.27 | news google-news:8 | fc 0 | ai supported | 31.5s | There are road signs in Japan warning drivers that
+[46/117] real det 0.02 | news google-news:7 | fc 0 | ai supported | 51.1s | At a Nov. 2 rally in Swanton, Ohio, Donald Trump J
+[47/117] real det 0.27 | news google-news:7 | fc 0 | ai supported | 45.3s | At least six people killed in shooting in Poland’s
+[48/117] real det 0.04 | news google-news:8 | fc 0 | ai supported | 53.8s | U.S. President Donald Trump's administration decli
+[49/117] real det 0.69 | news google-news:7 | fc 0 | ai supported | 45.5s | Hutchinson beats Buatsi to win WBC light-heavyweig
+[50/117] real det 0.27 | news gdelt:0 | fc 0 | ai unverifiable | 23.2s | Chart of the Week: Data centres rebuked
+[51/117] real det 0.27 | news gdelt:0 | fc 0 | ai unverifiable | 9.3s | Keralam measles outbreaks call for a relook at dis
+[52/117] fake det 0.04 | news gdelt:0 | fc 0 | ai refuted | 12.8s | The video shows a Muslim man named Shahil engaging
+[53/117] fake det 0.27 | news gdelt:0 | fc 0 | ai unverifiable | 10.7s | Genuine video of recent floods in Padang, West Sum
+[54/117] real det 0.27 | news gdelt:0 | fc 0 | ai unverifiable | 11.4s | Scott Colom and Black Mississippians stand on the 
+[55/117] real det 0.27 | news gdelt:0 | fc 0 | ai unverifiable | 9.5s | British man among six killed by 'far-right' gunman
+[56/117] real det 0.69 | news gdelt:0 | fc 0 | ai unverifiable | 11.1s | Khawaja says he has thrown nobody 'under the bus'
+[57/117] real det 0.27 | news gdelt:0 | fc 0 | ai unverifiable | 10.7s | Palestinians return to destroyed West Bank homes a
+[58/117] fake det 0.27 | news gdelt:0 | fc 1 | ai refuted | 53.0s | The video shows a girl in Ladakh being abducted fr
+[59/117] fake det 0.69 | news gdelt:0 | fc 0 | ai refuted | 13.8s | The video shows the newly appointed CEO of Ayodhya
+[60/117] fake det 0.69 | news gdelt:0 | fc 0 | ai unverifiable | 14.2s | Video shows Ram Temple CEO Jeetendra Mishra seen d
+[61/117] fake det 0.27 | news gdelt:0 | fc 0 | ai unverifiable | 13.0s | Nigerian leader awards $7 billion port deal to cro
+[62/117] fake det 0.27 | news gdelt:0 | fc 0 | ai refuted | 19.9s | The video shows protests in Delhi on 10 October 20
+[63/117] fake det 0.39 | news google-news:8 | fc 0 | ai supported | 37.1s | Video shows drug abuse consequences in Punjab
+[64/117] fake det 0.67 | news google-news:8 | fc 1 | ai supported | 37.8s | This video shows the recent protest against CEC Gy
+[65/117] fake det 0.69 | news google-news:8 | fc 0 | ai refuted | 52.8s | Real Sam’s Club receipts from 1983 and 2026 show a
+[66/117] fake det 0.27 | news google-news:5 | fc 0 | ai refuted | 24.1s | Asylum seekers living in accommodation where meals
+[67/117] real det 0.28 | news google-news:8 | fc 0 | ai supported | 48.4s | U.S. Rep. Ilhan Omar, D-Minn., altered her birth y
+[68/117] real det 0.28 | news google-news:7 | fc 0 | ai supported | 26.8s | 'Multi-cancer' blood tests coming to some GP surge
+[69/117] real det 0.27 | news google-news:8 | fc 0 | ai supported | 24.3s | An FBI field office erroneously posted on X that E
+[70/117] real det 0.27 | news google-news:8 | fc 4 | ai refuted | 42.4s | A video authentically shows U.S. President Donald 
+[71/117] real det 0.04 | news google-news:8 | fc 0 | ai supported | 29.2s | A Republican organization paid for an ad targeting
+[72/117] real det 0.27 | news google-news:8 | fc 0 | ai supported | 24.9s | The term "sexual harassment" was coined in the 197
+[73/117] fake det 0.06 | news google-news:5 | fc 0 | ai refuted | 50.1s | A screenshot authentically shows a September 2026 
+[74/117] fake det 0.04 | news google-news:8 | fc 0 | ai supported | 27.7s | The video shows a protest by women against the BJP
+[75/117] fake det 0.81 | news google-news:8 | fc 1 | ai refuted | 40.8s | A video of a beauty pageant contestant struggling 
+[76/117] real det 0.27 | news google-news:6 | fc 0 | ai supported | 32.5s | 23 years after Javagal Srinath, Gurnoor Brar achie
+[77/117] fake det 0.27 | news google-news:8 | fc 1 | ai refuted | 28.3s | The video shows a massive bike rally heading towar
+[78/117] real det 0.02 | news google-news:8 | fc 4 | ai refuted | 43.8s | Canadian Prime Minister Mark Carney said in Septem
+[79/117] fake det 0.27 | news google-news:7 | fc 1 | ai supported | 27.7s | The video shows the Gandak Barrage Project, which 
+[80/117] real det 0.69 | news google-news:7 | fc 0 | ai supported | 26.2s | Another Body Found At Delhi Building Collapse Site
+[81/117] real det 0.27 | news google-news:8 | fc 0 | ai supported | 36.7s | Washington passed a ballot measure that may subjec
+[82/117] real det 0.27 | news google-news:7 | fc 0 | ai supported | 23.6s | Pope in 'pretty good health' as he starts Latin Am
+[83/117] fake det 0.52 | news gdelt:0 | fc 0 | ai unverifiable | 16.5s | In the past week alone the amount of people that h
+[84/117] real det 0.27 | news google-news:7 | fc 0 | ai supported | 42.7s | Three Democratic women running for Congress were i
+[85/117] real det 0.27 | news google-news:5 | fc 0 | ai supported | 22.3s | The datacentre arms race hits pause in south-east 
+[86/117] real det 0.87 | news google-news:8 | fc 0 | ai supported | 31.5s | U.S. Vice President J.D. Vance once said, “You don
+[87/117] fake det 0.27 | news google-news:8 | fc 3 | ai supported | 38.1s | This video shows visuals of the CJP-led protest in
+[88/117] real det 0.27 | news google-news:7 | fc 0 | ai supported | 27.9s | The CDC has recorded more than 5,000 measles cases
+[89/117] fake det 0.27 | news google-news:3 | fc 0 | ai refuted | 20.6s | The video shows a group of people in Nepal finding
+[90/117] fake det 0.27 | news google-news:8 | fc 0 | ai supported | 43.1s | The video shows the Riyadh Airport in Saudi Arabia
+[91/117] fake det 0.27 | news google-news:7 | fc 0 | ai mixed | 26.6s | This photo shows visuals from the Delhi protest, o
+[92/117] real det 0.27 | news google-news:7 | fc 0 | ai supported | 24.7s | Royal Family join veterans and families at Festiva
+[93/117] fake det 0.28 | news gdelt:3 | fc 0 | ai refuted | 48.5s | In September 2026, Japan officially banned Israeli
+[94/117] fake det 0.69 | news google-news:8 | fc 0 | ai refuted | 51.6s | The video shows late actor Nana Patekar apologisin
+[95/117] real det 0.69 | news google-news:7 | fc 0 | ai mixed | 28.4s | Andy Burnham wants to get closer to the EU - but h
+[96/117] real det 0.55 | news google-news:7 | fc 0 | ai supported | 36.8s | Property, football and politics: The links between
+[97/117] fake det 0.53 | news google-news:8 | fc 0 | ai supported | 26.8s | This video shows a 136-year-old mosque near the Ko
+[98/117] fake det 0.04 | news google-news:3 | fc 0 | ai refuted | 17.1s | Video of Arjun Singh, Minister-in-Charge of the De
+[99/117] real det 0.27 | news google-news:1 | fc 0 | ai refuted | 26.8s | The U.S. was the only opposing nation when the Uni
+[100/117] real det 0.27 | news google-news:8 | fc 0 | ai supported | 23.4s | Israeli president picks Netanyahu's rival Eisenkot
+[101/117] fake det 0.27 | news google-news:8 | fc 2 | ai supported | 28.8s | The image shows the crowd at the 'Chalo Dilli' ral
+[102/117] real det 0.27 | news gdelt:8 | fc 0 | ai supported | 63.7s | Israeli President picks Gadi Eisenkot, Netanyahu r
+[103/117] fake det 0.69 | news google-news:8 | fc 1 | ai unverifiable | 45.3s | This video shows Shri Ram Janmabhoomi Teerth Kshet
+[104/117] fake det 0.04 | news google-news:2 | fc 0 | ai mixed | 26.1s | Locks of Love, a charity that purports to provide 
+[105/117] fake det 0.27 | news google-news:8 | fc 0 | ai supported | 28.4s | Neha Bora called for Bangladesh-like situation and
+[106/117] real det 0.27 | news gdelt:4 | fc 0 | ai unverifiable | 64.6s | A class action settlement related to deceptive Ama
+[107/117] fake det 0.27 | news google-news:6 | fc 0 | ai refuted | 35.1s | Video shows the victim in the Jamui sexual assault
+[108/117] fake det 0.27 | news google-news:8 | fc 2 | ai refuted | 23.8s | Canada lights up Niagara Falls blue to celebrate D
+[109/117] real det 0.29 | news google-news:5 | fc 0 | ai refuted | 20.7s | AI agents run this automated biology lab that sequ
+[110/117] fake det 0.27 | news gdelt:1 | fc 0 | ai refuted | 40.8s | Videos show a recent drone attack by Houthis on Sa
+[111/117] real det 0.17 | news google-news:8 | fc 0 | ai refuted | 52.5s | Ohio gubernatorial candidate Amy Acton's birth mot
+[112/117] fake det 0.27 | news google-news:8 | fc 5 | ai supported | 28.9s | Video showing protesters marching towards Delhi’s 
+[113/117] real det 0.04 | news google-news:8 | fc 0 | ai refuted | 44.9s | Ahead of the 2026 U.S. midterm elections, some ele
+[114/117] fake det 0.69 | news google-news:3 | fc 0 | ai refuted | 19.2s | This video authentically shows a Gen-Z girl critic
+[115/117] fake det 0.67 | news google-news:8 | fc 0 | ai supported | 25.8s | This video shows an Indian food vendor adding sewa
+[116/117] fake det 0.27 | news google-news:8 | fc 1 | ai refuted | 42.1s | CNN journalist Anderson Cooper built a free hospit
+[117/117] real det 0.27 | news google-news:8 | fc 0 | ai supported | 29.0s | Actor Ian McKellen posted a heartfelt tribute to P
+done

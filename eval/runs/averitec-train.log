@@ -1,0 +1,129 @@
+node: rachel-gpu.bitmesra.ac.in
+Sun Nov 22 02:56:51 IST 2026
+index, memory.used [MiB], memory.total [MiB]
+0, 4 MiB, 46068 MiB
+1, 4 MiB, 46068 MiB
+3.11.13 2.4.1+cu121 4.49.0 True
+2026-11-22 02:56:57.694677: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-22 02:56:57.709610: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1795296417.726163 3793064 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1795296417.731156 3793064 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1795296417.745342 3793064 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1795296417.745355 3793064 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1795296417.745357 3793064 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1795296417.745358 3793064 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2026-11-22 02:56:57.749353: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+4646 training pairs {'entailment': 767.0, 'neutral': 2317.0, 'contradiction': 1562.0}, 408 validation pairs; device cuda, 4 threads; 0 of 12 layers frozen, 86M parameters trained; 1% of pairs cut to 384 tokens
+epoch 1/3 batch 20/581: loss 1.277, 0.1 s per batch, about 1 min left in this epoch
+epoch 1/3 batch 40/581: loss 1.124, 0.1 s per batch, about 1 min left in this epoch
+epoch 1/3 batch 60/581: loss 0.951, 0.1 s per batch, about 1 min left in this epoch
+epoch 1/3 batch 80/581: loss 0.846, 0.1 s per batch, about 1 min left in this epoch
+epoch 1/3 batch 100/581: loss 0.602, 0.1 s per batch, about 1 min left in this epoch
+epoch 1/3 batch 120/581: loss 0.628, 0.1 s per batch, about 1 min left in this epoch
+epoch 1/3 batch 140/581: loss 0.707, 0.1 s per batch, about 1 min left in this epoch
+epoch 1/3 batch 160/581: loss 0.482, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 180/581: loss 0.474, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 200/581: loss 0.417, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 220/581: loss 0.522, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 240/581: loss 0.374, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 260/581: loss 0.433, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 280/581: loss 0.556, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 300/581: loss 0.522, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 320/581: loss 0.442, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 340/581: loss 0.557, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 360/581: loss 0.524, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 380/581: loss 0.417, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 400/581: loss 0.412, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 420/581: loss 0.531, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 440/581: loss 0.445, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 460/581: loss 0.545, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 480/581: loss 0.370, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 500/581: loss 0.440, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 520/581: loss 0.459, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 540/581: loss 0.405, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 560/581: loss 0.350, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 580/581: loss 0.312, 0.1 s per batch, about 0 min left in this epoch
+epoch 1/3 batch 581/581: loss 0.304, 0.1 s per batch, about 0 min left in this epoch
+epoch 1: validation balanced accuracy 81.2% {'c': 0.639, 'e': 0.878, 'n': 0.918}
+  best so far: saved to ~/truthchain/stance/models/stance-averitec
+epoch 2/3 batch 20/581: loss 0.286, 0.0 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 40/581: loss 0.166, 0.0 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 60/581: loss 0.157, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 80/581: loss 0.206, 0.0 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 100/581: loss 0.244, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 120/581: loss 0.240, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 140/581: loss 0.287, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 160/581: loss 0.250, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 180/581: loss 0.375, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 200/581: loss 0.303, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 220/581: loss 0.321, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 240/581: loss 0.194, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 260/581: loss 0.208, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 280/581: loss 0.131, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 300/581: loss 0.269, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 320/581: loss 0.139, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 340/581: loss 0.222, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 360/581: loss 0.267, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 380/581: loss 0.142, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 400/581: loss 0.206, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 420/581: loss 0.125, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 440/581: loss 0.275, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 460/581: loss 0.236, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 480/581: loss 0.401, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 500/581: loss 0.215, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 520/581: loss 0.303, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 540/581: loss 0.173, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 560/581: loss 0.173, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 580/581: loss 0.265, 0.1 s per batch, about 0 min left in this epoch
+epoch 2/3 batch 581/581: loss 0.265, 0.1 s per batch, about 0 min left in this epoch
+epoch 2: validation balanced accuracy 85.0% {'c': 0.772, 'e': 0.854, 'n': 0.925}
+  best so far: saved to ~/truthchain/stance/models/stance-averitec
+epoch 3/3 batch 20/581: loss 0.070, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 40/581: loss 0.052, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 60/581: loss 0.121, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 80/581: loss 0.093, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 100/581: loss 0.151, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 120/581: loss 0.166, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 140/581: loss 0.179, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 160/581: loss 0.138, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 180/581: loss 0.182, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 200/581: loss 0.100, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 220/581: loss 0.224, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 240/581: loss 0.025, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 260/581: loss 0.090, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 280/581: loss 0.043, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 300/581: loss 0.165, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 320/581: loss 0.218, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 340/581: loss 0.069, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 360/581: loss 0.060, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 380/581: loss 0.090, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 400/581: loss 0.174, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 420/581: loss 0.064, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 440/581: loss 0.082, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 460/581: loss 0.084, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 480/581: loss 0.118, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 500/581: loss 0.125, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 520/581: loss 0.132, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 540/581: loss 0.165, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 560/581: loss 0.050, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 580/581: loss 0.055, 0.1 s per batch, about 0 min left in this epoch
+epoch 3/3 batch 581/581: loss 0.046, 0.1 s per batch, about 0 min left in this epoch
+epoch 3: validation balanced accuracy 86.4% {'c': 0.789, 'e': 0.866, 'n': 0.938}
+  best so far: saved to ~/truthchain/stance/models/stance-averitec
+done; best validation balanced accuracy 86.4%
+2026-11-22 02:59:01.441437: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-22 02:59:01.455460: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1795296541.471867 3793354 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1795296541.476816 3793354 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1795296541.490192 3793354 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1795296541.490209 3793354 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1795296541.490212 3793354 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1795296541.490213 3793354 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2026-11-22 02:59:01.494122: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+scored 800 pairs in 3 s -> eval/runs/averitec-stance-dev.jsonl
+job finished: 0
+Sun Nov 22 02:59:07 IST 2026

@@ -1,0 +1,3 @@
+{"id": 1, "claim": "Narendra Modi is the Prime Minister of India.", "evidence": "Prime Minister Narendra Modi inaugurated the new terminal in Varanasi on Monday.", "label": "supports", "note": "example: evidence states the claim in other words"}
+{"id": 2, "claim": "Narendra Modi is the Prime Minister of India.", "evidence": "PM Modi said Israel is the fatherland and India the motherland, a fact-check rated this quote false.", "label": "neutral", "note": "example: same person, different claim"}
+{"id": 3, "claim": "The RBI cut the repo rate by 50 basis points in October.", "evidence": "The Reserve Bank of India left the repo rate unchanged at its October meeting.", "label": "refutes", "note": "example: one detail changed"}

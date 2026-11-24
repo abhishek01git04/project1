@@ -1,0 +1,19 @@
+dropped 14 records affected by network failures
+106 already collected, 14 to go. AI model: ollama
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 11698.05it/s]
+[1/14] fake det 0.27 | news google-news:5 | fc 0 | ai refuted | 95.6s | An explosion in Rotherham in which a man died is l
+[2/14] real det 0.27 | news google-news:4 | fc 0 | ai supported | 18.6s | Chart of the Week: Data centres rebuked
+[3/14] real det 0.27 | news google-news:0 | fc 0 | ai unverifiable | 14.1s | Keralam measles outbreaks call for a relook at dis
+[4/14] fake det 0.04 | news gdelt:0 | fc 0 | ai refuted | 16.0s | The video shows a Muslim man named Shahil engaging
+[5/14] fake det 0.27 | news google-news:4 | fc 0 | ai supported | 30.6s | Genuine video of recent floods in Padang, West Sum
+[6/14] real det 0.27 | news google-news:7 | fc 0 | ai supported | 26.7s | Scott Colom and Black Mississippians stand on the 
+[7/14] real det 0.27 | news google-news:7 | fc 0 | ai supported | 25.7s | British man among six killed by 'far-right' gunman
+[8/14] real det 0.69 | news google-news:0 | fc 0 | ai unverifiable | 23.9s | Khawaja says he has thrown nobody 'under the bus'
+[9/14] real det 0.27 | news google-news:7 | fc 0 | ai supported | 21.5s | Palestinians return to destroyed West Bank homes a
+[10/14] fake det 0.27 | news google-news:2 | fc 1 | ai refuted | 17.9s | The video shows a girl in Ladakh being abducted fr
+[11/14] fake det 0.69 | news google-news:8 | fc 0 | ai supported | 23.1s | The video shows the newly appointed CEO of Ayodhya
+[12/14] fake det 0.69 | news google-news:8 | fc 2 | ai supported | 34.2s | Video shows Ram Temple CEO Jeetendra Mishra seen d
+[13/14] fake det 0.27 | news google-news:8 | fc 0 | ai refuted | 28.8s | Nigerian leader awards $7 billion port deal to cro
+[14/14] fake det 0.27 | news google-news:7 | fc 3 | ai refuted | 21.0s | The video shows protests in Delhi on 10 October 20
+done

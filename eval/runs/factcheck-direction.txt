@@ -1,0 +1,34 @@
+120 tuning claims. Live keyword rule: a false-rated fact-check matches 22 fake claims (genuine signal) and 3 real claims (false match).
+
+Modi example (claim implies fact-checked claim, the score the filter uses for a false rating):
+  0.00  PM Narendra Modi said “Israel is fatherland and India is motherland,” referring 
+  0.00  Video shows PM Modi saying "Today, India is the world's second largest beef prod
+  0.07  Narendra Modi is India's first OBC Prime Minister
+  0.00  Video shows PM Modi raising slogans for the opposition's INDIA bloc.
+
+rule              fake kept  false removed  right  wrong  uncertain  real->Fake  fake->Real  Modi FCs kept
+live keywords        22/22           0/3       74      2         44           0           2  4/4
+directional 0.1      18/22           3/3       72      2         46           0           2  0/4
+directional 0.3      17/22           3/3       71      3         46           0           3  0/4
+directional 0.5      17/22           3/3       71      3         46           0           3  0/4
+directional 0.7      17/22           3/3       71      3         46           0           3  0/4
+directional 0.9      15/22           3/3       71      4         45           0           4  0/4
+
+Threshold chosen on half the claims (picked [0.5, 0.1]), scored on the other half: net -4 against live (95% range -10 to +2), better 2, worse 5
+
+Fake claims whose genuine fact-check signal the filter removes at 0.5 (audit these):
+  [right -> right] Turning Point USA CEO Erika Kirk and political historian Heather Cox Richardson had a public confron
+      claim->fc 0.00  [False] Time magazine named Turning Point USA CEO Erika Kirk in its "Top 100 Most Influential People of 2025
+      claim->fc 0.00  [False] Shortly after Turning Point USA CEO Charlie Kirk was fatally shot in September 2025, his wife, Erika
+      claim->fc 0.00  [Fake] A screenshot authentically showed a post from Turning Point USA CEO Erika Kirk reacting to a video t
+      claim->fc 0.00  [False] U.S. Rep. Jasmine Crockett, D-Texas, demanded a federal investigation into Turning Point USA CEO Eri
+  [right -> wrong] This video shows the recent protest against CEC Gyanesh Kumar at Delhi's Jantar Mantar.
+      claim->fc 0.17  [Misleading] Fact Check: 2024 video goes viral with claim of recent protest against CEC Gyanesh Kumar at Jantar M
+  [right -> uncertain] This video shows visuals of the CJP-led protest in Delhi.
+      claim->fc 0.00  [False] Visuals show crowd at Cockroach Janta Party's protest at Jantar Mantar in Delhi
+      claim->fc 0.00  [False] This video shows the Delhi Police opening fire at the CJP-led protesters in Delhi.
+      claim->fc 0.00  [MISLEADING] The video shows women police personnel assaulting students during the Cockroach Janata Party (CJP) p
+  [right -> uncertain] CNN journalist Anderson Cooper built a free hospital for homeless people in September 2026.
+      claim->fc 0.00  [False] CNN journalist Anderson Cooper wants Social Security payments to be withheld from those who are unva
+  [right -> uncertain] The video shows a girl in Ladakh being abducted from her home by RSS workers as instructed by BJP le
+      claim->fc 0.09  [FALSE] The video shows a Congress supporter in Ladakh being abducted by RSS workers.

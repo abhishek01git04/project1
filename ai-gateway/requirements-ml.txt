@@ -1,0 +1,8 @@
+# Optional: AI models. Without these the gateway uses heuristic detectors.
+scikit-learn>=1.5     # own TF-IDF text model
+torch>=2.6            # own TruthNet CNN + Hugging Face models + safe TruFor checkpoint loading
+transformers>=4.45    # fine-tuned / pretrained Hugging Face models
+sentence-transformers[image]>=5.0   # Smaug general AI-image detector
+opencv-python-headless>=4.10        # video frame extraction for deepfake-video detection
+soundfile>=0.12                     # audio decoding (WAV, FLAC, OGG, MP3) for synthetic-voice detection
+scipy>=1.13                         # audio resampling

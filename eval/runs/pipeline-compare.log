@@ -1,0 +1,52 @@
+0 done, 2 to go; remote: http://127.0.0.1:11934
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 37157.00it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 53/199 [00:00<00:00, 524.38it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1387.27it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2253.16it/s]
+[1/2] fake current: Fake (ai refuted, fc 1) | new: Fake (ai refuted, fc 3) | 265s on local
+  remote dropped during claim 1; redoing it locally
+  remote dropped during claim 1; redoing it locally
+[2/2] real current: Real (ai supported, fc 0) | new: Real (ai supported, fc 0) | 778s on local
+done
+2 claims (1 real), both setups run minutes apart
+
+Setup      right wrong uncertain  accuracy  right when decided  real->Fake  fake->Real
+  current      2     0         0      100%                100%           0           0
+  new          2     0         0      100%                100%           0           0
+
+new vs current (right=+1, wrong=-1): net +0 (95% range +0 to +0), better on 0, worse on 0
+
+models ran on: {'local': 2}
+=== full run with OLLAMA_REMOTE via auto-reconnecting tunnel Wed Nov 11 02:11:20 IST 2026 ===
+2 done, 118 to go; remote: http://127.0.0.1:11934
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 39913.60it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  29%|██▉       | 58/199 [00:00<00:00, 526.71it/s]Loading weights:  56%|█████▌    | 111/199 [00:00<00:00, 496.97it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 637.58it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  36%|███▌      | 71/199 [00:00<00:00, 652.06it/s]Loading weights:  72%|███████▏  | 144/199 [00:00<00:00, 695.28it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 773.05it/s]
+[1/118] real current: Real (ai supported, fc 0) | new: Real (ai supported, fc 0) | 143s on remote
+[2/118] fake current: Fake (ai unverifiable, fc 0) | new: Fake (ai unverifiable, fc 0) | 130s on remote
+[3/118] fake current: Fake (ai refuted, fc 0) | new: Uncertain (ai unverifiable, fc 0) | 99s on remote
+[4/118] fake current: Fake (ai refuted, fc 0) | new: Uncertain (ai supported, fc 1) | 111s on remote
+[5/118] fake current: Fake (ai unverifiable, fc 0) | new: Fake (ai unverifiable, fc 0) | 148s on remote
+[6/118] fake current: Fake (ai refuted, fc 0) | new: Fake (ai refuted, fc 0) | 100s on remote
+[7/118] fake current: Fake (ai refuted, fc 0) | new: Fake (ai refuted, fc 2) | 110s on remote
+[8/118] fake current: Fake (ai unverifiable, fc 1) | new: Fake (ai unverifiable, fc 1) | 110s on remote
+[9/118] real current: Real (ai supported, fc 0) | new: Real (ai supported, fc 0) | 127s on remote
+[10/118] real current: Real (ai supported, fc 0) | new: Real (ai supported, fc 0) | 121s on remote
+  remote dropped during claim 12; redoing it locally
+[11/118] fake current: Uncertain (ai unverifiable, fc 0) | new: Fake (ai unverifiable, fc 2) | 203s on local
+[12/118] real current: Real (ai supported, fc 0) | new: Real (ai supported, fc 0) | 140s on remote
+[13/118] fake current: Uncertain (ai unverifiable, fc 0) | new: Real (ai supported, fc 0) | 129s on remote
+  remote dropped during claim 15; redoing it locally
+[14/118] real current: Uncertain (ai refuted, fc 0) | new: Uncertain (ai unverifiable, fc 0) | 493s on local
+[15/118] fake current: Uncertain (ai unverifiable, fc 0) | new: Uncertain (ai unverifiable, fc 0) | 120s on remote
+  remote dropped during claim 17; redoing it locally
+[16/118] real current: Uncertain (ai unverifiable, fc 0) | new: Uncertain (ai unverifiable, fc 0) | 422s on local
+internet down, waiting...
+internet back, continuing
+[17/118] real current: Real (ai supported, fc 0) | new: Real (ai supported, fc 0) | 376s on local
+  remote dropped during claim 19; redoing it locally
+[18/118] real current: Real (ai error, fc 0) | new: Uncertain (ai unverifiable, fc 0) | 48445s on local
+internet down, waiting...
+internet back, continuing
+[19/118] fake current: Uncertain (ai refuted, fc 0) | new: Uncertain (ai refuted, fc 1) | 116s on local

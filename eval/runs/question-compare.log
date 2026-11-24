@@ -1,0 +1,153 @@
+0 done, 150 to go; remote: http://127.0.0.1:11934
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 22342.06it/s]
+[1/150] short  real current: Fake (ai supported, 130s) | questions: Fake (ai supported, 163s) | 329s on local
+[2/150] short  real current: Real (ai supported, 99s) | questions: Real (ai supported, 232s) | 335s on local
+[3/150] short  real current: Fake (ai supported, 104s) | questions: Fake (ai supported, 268s) | 375s on local
+[4/150] short  real current: Fake (ai supported, 98s) | questions: Fake (ai supported, 196s) | 296s on local
+[5/150] short  real current: Fake (ai unverifiable, 116s) | questions: Fake (ai supported, 190s) | 308s on local
+[6/150] short  real current: Real (ai supported, 114s) | questions: Real (ai supported, 291s) | 407s on local
+[7/150] short  real current: Fake (ai supported, 123s) | questions: Fake (ai supported, 332s) | 459s on local
+[8/150] short  real current: Fake (ai refuted, 116s) | questions: Fake (ai supported, 266s) | 385s on local
+[9/150] short  real current: Fake (ai refuted, 74s) | questions: Fake (ai refuted, 1179s) | 1255s on local
+[10/150] short  real current: Real (ai supported, 56s) | questions: Real (ai supported, 164s) | 223s on local
+[11/150] short  real current: Fake (ai supported, 87s) | questions: Fake (ai supported, 234s) | 324s on local
+[12/150] short  real current: Fake (ai supported, 96s) | questions: Fake (ai supported, 203s) | 302s on local
+[13/150] short  real current: Real (ai supported, 58s) | questions: Fake (ai refuted, 196s) | 258s on local
+[14/150] short  real current: Fake (ai supported, 85s) | questions: Fake (ai supported, 161s) | 249s on local
+[15/150] short  real current: Real (ai supported, 132s) | questions: Real (ai supported, 229s) | 364s on local
+[16/150] short  fake current: Fake (ai refuted, 88s) | questions: Fake (ai refuted, 83s) | 175s on remote
+[17/150] short  fake current: Fake (ai refuted, 26s) | questions: Fake (ai refuted, 105s) | 134s on remote
+[18/150] short  fake current: Fake (ai refuted, 75s) | questions: Fake (ai refuted, 120s) | 198s on remote
+[19/150] short  fake current: Fake (ai refuted, 41s) | questions: Fake (ai refuted, 134s) | 177s on remote
+[20/150] short  fake current: Uncertain (ai supported, 57s) | questions: Uncertain (ai supported, 106s) | 166s on remote
+[21/150] short  fake current: Fake (ai refuted, 55s) | questions: Fake (ai refuted, 125s) | 182s on remote
+[22/150] short  fake current: Fake (ai refuted, 78s) | questions: Fake (ai refuted, 129s) | 210s on remote
+[23/150] short  fake current: Fake (ai refuted, 54s) | questions: Fake (ai refuted, 58s) | 115s on remote
+[24/150] short  fake current: Fake (ai refuted, 81s) | questions: Fake (ai refuted, 192s) | 275s on remote
+[25/150] short  fake current: Real (ai supported, 59s) | questions: Real (ai supported, 99s) | 160s on remote
+[26/150] short  fake current: Fake (ai refuted, 59s) | questions: Fake (ai refuted, 132s) | 193s on remote
+[27/150] short  fake current: Fake (ai refuted, 59s) | questions: Fake (ai refuted, 163s) | 225s on remote
+[28/150] short  fake current: Fake (ai refuted, 38s) | questions: Fake (ai refuted, 105s) | 147s on remote
+[29/150] short  fake current: Uncertain (ai refuted, 42s) | questions: Uncertain (ai refuted, 94s) | 138s on remote
+[30/150] short  fake current: Fake (ai refuted, 48s) | questions: Fake (ai refuted, 137s) | 186s on remote
+[31/150] tuning fake current: Uncertain (ai refuted, 38s) | questions: Uncertain (ai unverifiable, 147s) | 188s on remote
+[32/150] tuning real current: Real (ai supported, 53s) | questions: Real (ai supported, 88s) | 143s on remote
+[33/150] tuning real current: Real (ai supported, 39s) | questions: Real (ai supported, 144s) | 186s on remote
+[34/150] tuning fake current: Fake (ai unverifiable, 56s) | questions: Fake (ai unverifiable, 106s) | 165s on remote
+[35/150] tuning fake current: Fake (ai refuted, 26s) | questions: Fake (ai refuted, 88s) | 116s on remote
+[36/150] tuning fake current: Fake (ai refuted, 14s) | questions: Fake (ai refuted, 127s) | 144s on remote
+[37/150] tuning fake current: Fake (ai unverifiable, 29s) | questions: Fake (ai unverifiable, 64s) | 97s on remote
+[38/150] tuning fake current: Fake (ai refuted, 14s) | questions: Fake (ai refuted, 86s) | 103s on remote
+[39/150] tuning fake current: Fake (ai refuted, 35s) | questions: Fake (ai refuted, 70s) | 107s on remote
+[40/150] tuning fake current: Fake (ai unverifiable, 25s) | questions: Fake (ai refuted, 71s) | 98s on remote
+[41/150] tuning real current: Real (ai supported, 26s) | questions: Real (ai supported, 64s) | 93s on remote
+[42/150] tuning real current: Real (ai supported, 40s) | questions: Real (ai supported, 119s) | 164s on remote
+[43/150] tuning fake current: Fake (ai refuted, 16s) | questions: Fake (ai refuted, 110s) | 129s on remote
+[44/150] tuning real current: Real (ai supported, 26s) | questions: Real (ai supported, 78s) | 107s on remote
+[45/150] tuning fake current: Uncertain (ai unverifiable, 31s) | questions: Fake (ai refuted, 112s) | 149s on remote
+[46/150] tuning real current: Uncertain (ai unverifiable, 30s) | questions: Uncertain (ai refuted, 105s) | 139s on remote
+[47/150] tuning fake current: Uncertain (ai refuted, 27s) | questions: Uncertain (ai refuted, 134s) | 162s on remote
+[48/150] tuning real current: Uncertain (ai refuted, 18s) | questions: Real (ai supported, 78s) | 97s on remote
+[49/150] tuning real current: Real (ai supported, 36s) | questions: Real (ai supported, 79s) | 117s on remote
+[50/150] tuning real current: Real (ai supported, 17s) | questions: Real (ai supported, 87s) | 107s on remote
+  remote dropped during claim 20; redoing it
+  remote dropped during claim 20; redoing it
+[51/150] tuning fake current: Uncertain (ai refuted, 104s) | questions: Uncertain (ai refuted, 144s) | 351s on local
+[52/150] tuning fake current: Fake (ai refuted, 22s) | questions: Fake (ai refuted, 103s) | 129s on remote
+[53/150] tuning fake current: Fake (ai refuted, 29s) | questions: Fake (ai refuted, 47s) | 79s on remote
+[54/150] tuning real current: Uncertain (ai unverifiable, 20s) | questions: Uncertain (ai unverifiable, 160s) | 183s on remote
+[55/150] tuning fake current: Uncertain (ai unverifiable, 33s) | questions: Uncertain (ai unverifiable, 88s) | 124s on remote
+[56/150] tuning real current: Uncertain (ai unverifiable, 17s) | questions: Real (ai supported, 77s) | 97s on remote
+[57/150] tuning real current: Real (ai supported, 56s) | questions: Real (ai supported, 128s) | 188s on remote
+[58/150] tuning real current: Uncertain (ai refuted, 14s) | questions: Uncertain (ai refuted, 56s) | 73s on remote
+[59/150] tuning fake current: Fake (ai refuted, 29s) | questions: Fake (ai refuted, 55s) | 87s on remote
+[60/150] tuning fake current: Uncertain (ai unverifiable, 26s) | questions: Uncertain (ai unverifiable, 116s) | 145s on remote
+[61/150] tuning fake current: Real (ai supported, 36s) | questions: Real (ai supported, 90s) | 128s on remote
+[62/150] tuning real current: Uncertain (ai unverifiable, 13s) | questions: Real (ai supported, 76s) | 92s on remote
+[63/150] tuning real current: Uncertain (ai refuted, 19s) | questions: Uncertain (ai refuted, 69s) | 92s on remote
+[64/150] tuning real current: Real (ai supported, 30s) | questions: Real (ai supported, 61s) | 97s on remote
+[65/150] tuning real current: Real (ai supported, 42s) | questions: Real (ai supported, 155s) | 202s on remote
+[66/150] tuning real current: Real (ai supported, 32s) | questions: Uncertain (ai refuted, 117s) | 155s on remote
+[67/150] tuning fake current: Uncertain (ai unverifiable, 46s) | questions: Uncertain (ai unverifiable, 103s) | 155s on remote
+[68/150] tuning real current: Real (ai supported, 16s) | questions: Real (ai supported, 80s) | 100s on remote
+[69/150] tuning fake current: Fake (ai unverifiable, 19s) | questions: Fake (ai unverifiable, 56s) | 77s on remote
+[70/150] tuning real current: Uncertain (ai refuted, 19s) | questions: Uncertain (ai refuted, 87s) | 109s on remote
+[71/150] tuning real current: Real (ai supported, 36s) | questions: Real (ai supported, 54s) | 93s on remote
+[72/150] tuning fake current: Uncertain (ai unverifiable, 22s) | questions: Fake (ai refuted, 98s) | 123s on remote
+[73/150] tuning fake current: Fake (ai refuted, 26s) | questions: Fake (ai refuted, 52s) | 79s on remote
+[74/150] tuning fake current: Fake (ai refuted, 24s) | questions: Fake (ai refuted, 80s) | 106s on remote
+[75/150] tuning fake current: Real (ai supported, 27s) | questions: Real (ai supported, 77s) | 106s on remote
+[76/150] tuning real current: Real (ai supported, 21s) | questions: Real (ai supported, 70s) | 94s on remote
+[77/150] tuning real current: Uncertain (ai refuted, 34s) | questions: Uncertain (ai refuted, 148s) | 184s on remote
+[78/150] tuning real current: Real (ai supported, 19s) | questions: Real (ai supported, 56s) | 78s on remote
+[79/150] tuning real current: Real (ai supported, 37s) | questions: Real (ai supported, 139s) | 183s on remote
+internet down, waiting...
+internet back, continuing
+[80/150] tuning real current: Real (ai supported, 51s) | questions: Real (ai supported, 184s) | 245s on remote
+[81/150] tuning real current: Real (ai supported, 51s) | questions: Real (ai supported, 112s) | 171s on remote
+  remote dropped during claim 51; redoing it
+[82/150] tuning real current: Real (ai supported, 55s) | questions: Real (ai supported, 142s) | 295s on local
+  remote dropped during claim 52; redoing it
+  remote dropped during claim 52; redoing it
+  remote dropped during claim 52; redoing it
+[83/150] tuning real current: Real (ai supported, 24s) | questions: Uncertain (ai unverifiable, 137s) | 529s on remote
+[84/150] tuning real current: Uncertain (ai unverifiable, 33s) | questions: Real (ai supported, 109s) | 146s on remote
+[85/150] tuning fake current: Uncertain (ai unverifiable, 18s) | questions: Uncertain (ai unverifiable, 93s) | 114s on remote
+  remote dropped during claim 55; redoing it
+[86/150] tuning fake current: Uncertain (ai unverifiable, 68s) | questions: Fake (ai unverifiable, 196s) | 380s on local
+[87/150] tuning real current: Real (ai supported, 56s) | questions: Real (ai supported, 235s) | 293s on local
+[88/150] tuning real current: Real (ai supported, 80s) | questions: Real (ai supported, 175s) | 257s on local
+[89/150] tuning real current: Uncertain (ai unverifiable, 46s) | questions: Uncertain (ai unverifiable, 180s) | 226s on local
+[90/150] tuning real current: Uncertain (ai unverifiable, 90s) | questions: Uncertain (ai unverifiable, 357s) | 449s on local
+[91/150] tuning fake current: Fake (ai refuted, 106s) | questions: Uncertain (ai refuted, 7199s) | 7306s on local
+[92/150] tuning fake current: Uncertain (ai unverifiable, 121s) | questions: Fake (ai refuted, 188s) | 312s on local
+internet down, waiting...
+internet back, continuing
+[93/150] tuning fake current: Fake (ai refuted, 112s) | questions: Fake (ai unverifiable, 160s) | 273s on local
+[94/150] tuning fake current: Uncertain (ai unverifiable, 38s) | questions: Uncertain (ai refuted, 156s) | 194s on local
+[95/150] tuning fake current: Fake (ai unverifiable, 104s) | questions: Uncertain (ai supported, 186s) | 290s on local
+[96/150] tuning fake current: Uncertain (ai unverifiable, 66s) | questions: Uncertain (ai unverifiable, 175s) | 242s on local
+[97/150] tuning fake current: Real (ai supported, 95s) | questions: Real (ai supported, 183s) | 278s on local
+[98/150] tuning fake current: Fake (ai refuted, 50s) | questions: Fake (ai refuted, 145s) | 196s on local
+[99/150] tuning fake current: Uncertain (ai unverifiable, 37s) | questions: Uncertain (ai refuted, 139s) | 176s on local
+[100/150] tuning real current: Uncertain (ai unverifiable, 96s) | questions: Uncertain (ai refuted, 188s) | 286s on local
+[101/150] tuning real current: Real (ai supported, 74s) | questions: Real (ai supported, 162s) | 237s on local
+[102/150] tuning real current: Uncertain (ai refuted, 107s) | questions: Real (ai supported, 198s) | 306s on local
+[103/150] tuning real current: Uncertain (ai unverifiable, 113s) | questions: Uncertain (ai unverifiable, 174s) | 287s on local
+[104/150] tuning real current: Uncertain (ai unverifiable, 90s) | questions: Uncertain (ai unverifiable, 154s) | 245s on local
+[105/150] tuning real current: Real (ai supported, 54s) | questions: Real (ai supported, 168s) | 223s on local
+[106/150] tuning fake current: Uncertain (ai refuted, 33s) | questions: Uncertain (ai refuted, 239s) | 272s on local
+internet down, waiting...
+internet back, continuing
+[107/150] tuning fake current: Uncertain (ai unverifiable, 70s) | questions: Uncertain (ai unverifiable, 186s) | 258s on local
+[108/150] tuning fake current: Fake (ai unverifiable, 101s) | questions: Fake (ai refuted, 194s) | 296s on local
+[109/150] tuning real current: Real (ai supported, 54s) | questions: Real (ai supported, 107s) | 161s on local
+[110/150] tuning fake current: Fake (ai unverifiable, 81s) | questions: Fake (ai unverifiable, 219s) | 301s on local
+[111/150] tuning real current: Fake (ai refuted, 121s) | questions: Fake (ai refuted, 186s) | 309s on local
+[112/150] tuning fake current: Fake (ai unverifiable, 134s) | questions: Uncertain (ai supported, 189s) | 324s on local
+internet down, waiting...
+internet back, continuing
+[113/150] tuning real current: Real (ai supported, 94s) | questions: Real (ai supported, 225s) | 320s on local
+[114/150] tuning real current: Uncertain (ai unverifiable, 55s) | questions: Uncertain (ai refuted, 217s) | 274s on local
+[115/150] tuning real current: Real (ai supported, 63s) | questions: Real (ai supported, 203s) | 267s on local
+[116/150] tuning fake current: Uncertain (ai unverifiable, 61s) | questions: Uncertain (ai unverifiable, 202s) | 264s on local
+[117/150] tuning real current: Uncertain (ai unverifiable, 30s) | questions: Uncertain (ai unverifiable, 168s) | 199s on local
+[118/150] tuning real current: Real (ai supported, 46s) | questions: Real (ai supported, 196s) | 244s on local
+[119/150] tuning real current: Uncertain (ai supported, 68s) | questions: Uncertain (ai supported, 213s) | 283s on local
+[120/150] tuning fake current: Uncertain (ai unverifiable, 94s) | questions: Real (ai supported, 156s) | 252s on local
+[121/150] tuning real current: Real (ai supported, 104s) | questions: Real (ai supported, 145s) | 250s on local
+[122/150] tuning fake current: Uncertain (ai unverifiable, 58s) | questions: Uncertain (ai refuted, 137s) | 197s on local
+[123/150] tuning fake current: Uncertain (ai unverifiable, 93s) | questions: Real (ai supported, 214s) | 309s on local
+[124/150] tuning fake current: Uncertain (ai unverifiable, 67s) | questions: Uncertain (ai unverifiable, 142s) | 210s on local
+[125/150] tuning real current: Real (ai supported, 96s) | questions: Real (ai supported, 149s) | 247s on local
+[126/150] tuning fake current: Uncertain (ai refuted, 55s) | questions: Uncertain (ai refuted, 170s) | 226s on local
+[127/150] tuning fake current: Fake (ai refuted, 71s) | questions: Fake (ai refuted, 181s) | 253s on local
+[128/150] tuning real current: Real (ai supported, 54s) | questions: Real (ai supported, 147s) | 202s on local
+internet down, waiting...
+internet back, continuing
+[129/150] tuning real current: Real (ai supported, 94s) | questions: Uncertain (ai unverifiable, 182s) | 280s on local
+[130/150] tuning fake current: Uncertain (ai unverifiable, 95s) | questions: Uncertain (ai unverifiable, 214s) | 313s on local
+[131/150] tuning fake current: Uncertain (ai unverifiable, 78s) | questions: Uncertain (ai refuted, 177s) | 256s on local
+[132/150] tuning real current: Uncertain (ai refuted, 39s) | questions: Uncertain (ai refuted, 86s) | 125s on local
+[133/150] tuning real current: Real (ai supported, 90s) | questions: Real (ai supported, 248s) | 340s on local
+[134/150] tuning fake current: Uncertain (ai supported, 118s) | questions: Uncertain (ai supported, 301s) | 420s on local

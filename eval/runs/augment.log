@@ -1,0 +1,57 @@
+6 pairs done, 4640 pairs (2650 claims) to go, 4 workers, http://127.0.0.1:11934
+  50/2650, 1.4 s each, ~60 min left
+  100/2650, 1.3 s each, ~53 min left
+  150/2650, 1.3 s each, ~55 min left
+  200/2650, 1.3 s each, ~54 min left
+  250/2650, 1.4 s each, ~55 min left
+  300/2650, 1.4 s each, ~54 min left
+  350/2650, 1.5 s each, ~56 min left
+  400/2650, 1.5 s each, ~55 min left
+  450/2650, 1.5 s each, ~55 min left
+  500/2650, 1.5 s each, ~54 min left
+  550/2650, 1.6 s each, ~54 min left
+  600/2650, 1.5 s each, ~53 min left
+  650/2650, 1.6 s each, ~52 min left
+  700/2650, 1.6 s each, ~51 min left
+  750/2650, 1.6 s each, ~51 min left
+  800/2650, 1.6 s each, ~50 min left
+  850/2650, 1.6 s each, ~48 min left
+  900/2650, 1.6 s each, ~48 min left
+  950/2650, 1.6 s each, ~47 min left
+  1000/2650, 1.7 s each, ~46 min left
+  1050/2650, 1.6 s each, ~44 min left
+  1100/2650, 1.6 s each, ~42 min left
+  1150/2650, 1.6 s each, ~41 min left
+  1200/2650, 1.6 s each, ~40 min left
+  1250/2650, 1.7 s each, ~39 min left
+  1300/2650, 1.6 s each, ~37 min left
+  1350/2650, 1.7 s each, ~36 min left
+  1400/2650, 1.6 s each, ~34 min left
+  1450/2650, 1.6 s each, ~33 min left
+  1500/2650, 1.7 s each, ~32 min left
+  1550/2650, 1.7 s each, ~30 min left
+  1600/2650, 1.7 s each, ~29 min left
+  1650/2650, 1.7 s each, ~28 min left
+  1700/2650, 1.6 s each, ~26 min left
+  1750/2650, 1.6 s each, ~25 min left
+  1800/2650, 1.7 s each, ~23 min left
+  1850/2650, 1.6 s each, ~22 min left
+  1900/2650, 1.6 s each, ~21 min left
+  1950/2650, 1.6 s each, ~19 min left
+  2000/2650, 1.6 s each, ~18 min left
+  2050/2650, 1.7 s each, ~17 min left
+  2100/2650, 1.7 s each, ~15 min left
+  2150/2650, 1.7 s each, ~14 min left
+  2200/2650, 1.7 s each, ~12 min left
+  2250/2650, 1.6 s each, ~11 min left
+  2300/2650, 1.6 s each, ~9 min left
+  2350/2650, 1.6 s each, ~8 min left
+  2400/2650, 1.6 s each, ~7 min left
+  2450/2650, 1.6 s each, ~5 min left
+  2500/2650, 1.6 s each, ~4 min left
+  2550/2650, 1.6 s each, ~3 min left
+  2600/2650, 1.6 s each, ~1 min left
+generation done
+4643 pairs done, 3 pairs (2 claims) to go, 4 workers, http://127.0.0.1:11934
+generation done
+4643 generated pairs: kept 3384 invariant and 3597 flipped claims -> C:\project1\training\aug_data.jsonl

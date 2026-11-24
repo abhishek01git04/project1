@@ -1,0 +1,68 @@
+C:\project1\ai-gateway\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:   8%|▊         | 16/202 [00:00<00:01, 159.48it/s]Loading weights:  16%|█▌        | 32/202 [00:00<00:01, 150.12it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 798.25it/s]
+Could not reach the Hub (Cannot reach https://huggingface.co/api/models/BAAI/bge-small-en-v1.5: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'BAAI/bge-small-en-v1.5'.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  22%|██▏       | 44/199 [00:00<00:00, 438.15it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1442.79it/s]
+dev: 0 scored, 800 to go
+  dev: 32/800 (38s)
+  dev: 64/800 (70s)
+  dev: 96/800 (103s)
+  dev: 128/800 (143s)
+  dev: 160/800 (179s)
+  dev: 192/800 (218s)
+  dev: 224/800 (252s)
+  dev: 256/800 (284s)
+  dev: 288/800 (315s)
+  dev: 320/800 (345s)
+  dev: 352/800 (370s)
+  dev: 384/800 (409s)
+  dev: 416/800 (448s)
+  dev: 448/800 (487s)
+  dev: 480/800 (520s)
+  dev: 512/800 (551s)
+  dev: 544/800 (580s)
+  dev: 576/800 (617s)
+  dev: 608/800 (654s)
+  dev: 640/800 (688s)
+  dev: 672/800 (731s)
+  dev: 704/800 (767s)
+  dev: 736/800 (802s)
+  dev: 768/800 (838s)
+  dev: 800/800 (876s)
+train: 0 scored, 1596 to go
+  train: 32/1596 (30s)
+  train: 64/1596 (61s)
+  train: 96/1596 (96s)
+  train: 128/1596 (127s)
+  train: 160/1596 (162s)
+  train: 192/1596 (200s)
+  train: 224/1596 (234s)
+  train: 256/1596 (266s)
+  train: 288/1596 (302s)
+  train: 320/1596 (346s)
+  train: 352/1596 (383s)
+  train: 384/1596 (417s)
+  train: 416/1596 (460s)
+  train: 448/1596 (490s)
+  train: 480/1596 (523s)
+  train: 512/1596 (554s)
+  train: 544/1596 (651s)
+  train: 576/1596 (811s)
+  train: 608/1596 (951s)
+  train: 640/1596 (1087s)
+  train: 672/1596 (1234s)
+C:\project1\ai-gateway\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 55/202 [00:00<00:00, 536.70it/s]Loading weights:  54%|█████▍    | 109/202 [00:00<00:00, 390.55it/s]Loading weights:  76%|███████▌  | 154/202 [00:00<00:00, 408.58it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 446.72it/s]
+Could not reach the Hub (Cannot reach https://huggingface.co/api/models/BAAI/bge-small-en-v1.5: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'BAAI/bge-small-en-v1.5'.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  55%|█████▌    | 110/199 [00:00<00:00, 1070.94it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1012.97it/s]
+dev: 800 scored, 0 to go
+train: 672 scored, 924 to go
+  train: 32/924 (142s)
+  train: 64/924 (278s)
+  train: 96/924 (402s)
+  train: 128/924 (518s)
+  train: 160/924 (651s)
+  train: 192/924 (796s)
+  train: 224/924 (856s)
+  train: 256/924 (898s)

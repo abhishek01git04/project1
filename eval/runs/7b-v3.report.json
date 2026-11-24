@@ -1,0 +1,78 @@
+{
+  "claims": 120,
+  "llmErrors": 0,
+  "overall": {
+    "detector": {
+      "n": 120,
+      "accuracy": 0.45,
+      "decided": 0.767,
+      "precision": 0.587,
+      "false_fake": 1,
+      "n_real": 60,
+      "false_real": 37,
+      "n_fake": 60
+    },
+    "no-ai": {
+      "n": 120,
+      "accuracy": 0.608,
+      "decided": 0.8,
+      "precision": 0.76,
+      "false_fake": 3,
+      "n_real": 60,
+      "false_real": 20,
+      "n_fake": 60
+    },
+    "full": {
+      "n": 120,
+      "accuracy": 0.592,
+      "decided": 0.617,
+      "precision": 0.959,
+      "false_fake": 1,
+      "n_real": 60,
+      "false_real": 2,
+      "n_fake": 60
+    }
+  },
+  "groups": {
+    "fake: statements": {
+      "n": 17,
+      "accuracy": 0.529,
+      "decided": 0.529,
+      "precision": 1.0,
+      "false_fake": 0,
+      "n_real": 0,
+      "false_real": 0,
+      "n_fake": 17
+    },
+    "fake: photo/video captions": {
+      "n": 43,
+      "accuracy": 0.605,
+      "decided": 0.651,
+      "precision": 0.929,
+      "false_fake": 0,
+      "n_real": 0,
+      "false_real": 2,
+      "n_fake": 43
+    },
+    "real: rated true by fact-checkers": {
+      "n": 30,
+      "accuracy": 0.433,
+      "decided": 0.467,
+      "precision": 0.929,
+      "false_fake": 1,
+      "n_real": 30,
+      "false_real": 0,
+      "n_fake": 0
+    },
+    "real: credible headlines": {
+      "n": 30,
+      "accuracy": 0.767,
+      "decided": 0.767,
+      "precision": 1.0,
+      "false_fake": 0,
+      "n_real": 30,
+      "false_real": 0,
+      "n_fake": 0
+    }
+  }
+}

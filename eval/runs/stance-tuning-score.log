@@ -1,0 +1,7 @@
+988 sources of 120 claims
+C:\project1\ai-gateway\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:  10%|█         | 21/202 [00:00<00:00, 191.30it/s]Loading weights:  20%|██        | 41/202 [00:00<00:00, 187.60it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 735.95it/s]
+scored with ft (C:\project1\models\stance-averitec); saved C:\project1\eval\runs\stance-features.jsonl
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 28/202 [00:00<00:00, 244.75it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 1291.55it/s]
+scored with nli (MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli); saved C:\project1\eval\runs\stance-features.jsonl

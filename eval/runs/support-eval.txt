@@ -1,0 +1,31 @@
+120 claims with source scores (60 real)
+
+How well each measure separates real from fake claims (best source per claim; 0.5 = no better than chance)
+  keyword    AUC 0.60
+  embed      AUC 0.63
+  minicheck  AUC 0.78
+
+Where the AI said 'supported' (49 claims): best MiniCheck score
+  real: [0.02, 0.03, 0.03, 0.06, 0.06, 0.15, 0.18, 0.44, 0.45, 0.46, 0.46, 0.48, 0.48, 0.59, 0.62, 0.74, 0.74, 0.74, 0.79, 0.79, 0.8, 0.82, 0.87, 0.88, 0.88, 0.89, 0.9, 0.91, 0.92, 0.92, 0.93, 0.93, 0.93, 0.93, 0.94, 0.94, 0.94, 0.95, 0.96, 0.96, 0.97, 0.97, 0.99]
+  fake: [0.05, 0.07, 0.1, 0.23, 0.36, 0.95]
+
+Guard                               right wrong uncertain  real->Fake fake->Real  threshold
+  no guard                             74     2        44           0          2  [0]
+  keywords >=50% (live)                73     2        45           0          2  [0.5]
+  keywords (tuned)                     73     2        45           0          2  [0.5, 0.5]
+  embedding (tuned)                    72     4        44           3          1  [0.7, 0.75]
+  MiniCheck >=0.5                      64     3        53           2          1  [0.5]
+  MiniCheck (tuned)                    70     3        47           2          1  [0.3, 0.1]
+  MiniCheck, articles only >=0.5       60     4        56           3          1  [0.5]
+
+Change against the live keyword guard (right=+1, wrong=-1; 95% range by paired bootstrap)
+  no guard                          net  +1  (+0 to +3)  better 1, worse 0
+  keywords >=50% (live)             net  +0  (+0 to +0)  better 0, worse 0
+  keywords (tuned)                  net  +0  (+0 to +0)  better 0, worse 0
+  embedding (tuned)                 net  -3  (-8 to +2)  better 2, worse 5
+  MiniCheck >=0.5                   net -10  (-17 to -3)  better 2, worse 12
+  MiniCheck (tuned)                 net  -4  (-9 to +1)  better 1, worse 5
+  MiniCheck, articles only >=0.5    net -15  (-24 to -7)  better 2, worse 17
+MiniCheck >= 0.5: {'right/fake': '1/33', 'right/real': '29/41', 'uncertain/fake': '1/25', 'uncertain/real': '6/19', 'wrong/fake': '1/2'}
+MiniCheck >= 0.8: {'right/fake': '1/33', 'right/real': '23/41', 'uncertain/fake': '1/25', 'uncertain/real': '2/19', 'wrong/fake': '1/2'}
+MiniCheck >= 0.9: {'right/fake': '0/33', 'right/real': '17/41', 'uncertain/fake': '1/25', 'uncertain/real': '2/19', 'wrong/fake': '1/2'}

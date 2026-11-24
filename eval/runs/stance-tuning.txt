@@ -1,0 +1,43 @@
+120 claims (60 real); thresholds from AVeriTeC: ftE 0.014, ftC 0.005, nliE 0.061, nliC 0.165
+
+How well the best source separates real from fake claims (AUC, 0.5 = chance)
+  keyword    AUC 0.60
+  embed      AUC 0.63
+  minicheck  AUC 0.78
+  nliE       AUC 0.76
+  ftE        AUC 0.76
+  nliC       AUC 0.66  (fake above real)
+  ftC        AUC 0.74  (fake above real)
+
+Where the AI said 'supported' (49 claims): best fine-tuned ftE per claim
+  real: [0.0, 0.02, 0.02, 0.05, 0.14, 0.65, 0.88, 0.94, 0.99, 0.99, 0.99, 0.99, 0.99, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  fake: [0.0, 0.97, 0.99, 1.0, 1.0, 1.0]
+
+Where the AI said 'refuted' (35 claims): best fine-tuned ftC per claim
+  real: [0.0, 0.06, 0.19, 0.54, 0.76, 0.98, 0.99]
+  fake: [0.0, 0.0, 0.72, 0.78, 0.8, 0.82, 0.92, 0.97, 0.98, 0.98, 0.99, 0.99, 0.99, 0.99, 0.99, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+(refute guards keep the live keyword guard for 'supported')
+Guard                                right wrong uncertain  real->Fake fake->Real  threshold
+  no guard                              74     2        44           0          2  
+  keywords >=50% (live)                 73     2        45           0          2  
+  MiniCheck >=0.5 (rejected before)     64     3        53           2          1  
+  support: NLI, AVeriTeC threshold      71     3        46           2          1  
+  support: fine-tuned, AVeriTeC thr.    74     2        44           1          1  
+  support: fine-tuned, tuned            72     3        45           2          1  [0.1, 0.05]
+  refute: NLI, AVeriTeC threshold       71     2        47           0          2  
+  refute: fine-tuned, AVeriTeC thr.     73     2        45           0          2  
+  refute: fine-tuned, tuned             73     2        45           0          2  [0.5, 0.5]
+  both: fine-tuned, AVeriTeC thr.       74     2        44           1          1  
+
+Change against the live keyword guard (right=+1, wrong=-1; 95% range by paired bootstrap)
+  no guard                           net  +1  (+0 to +3)  better 1, worse 0
+  keywords >=50% (live)              net  +0  (+0 to +0)  better 0, worse 0
+  MiniCheck >=0.5 (rejected before)  net -10  (-17 to -3)  better 2, worse 12
+  support: NLI, AVeriTeC threshold   net  -3  (-8 to +1)  better 1, worse 4
+  support: fine-tuned, AVeriTeC thr. net  +1  (-2 to +4)  better 2, worse 1
+  support: fine-tuned, tuned         net  -2  (-7 to +3)  better 2, worse 4
+  refute: NLI, AVeriTeC threshold    net  -2  (-5 to +0)  better 0, worse 2
+  refute: fine-tuned, AVeriTeC thr.  net  +0  (+0 to +0)  better 0, worse 0
+  refute: fine-tuned, tuned          net  +0  (+0 to +0)  better 0, worse 0
+  both: fine-tuned, AVeriTeC thr.    net  +1  (-2 to +4)  better 2, worse 1

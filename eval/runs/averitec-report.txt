@@ -1,0 +1,61 @@
+train: supports 128, refutes 373, nei 57, conflicting 24, topic 346
+dev: supports 122, refutes 305, nei 35, conflicting 38, topic 300
+
+AUC on dev (0.5 = cannot tell them apart, 1.0 = perfect)
+  measure                            supports>topic  refutes>topic  supports>refutes  refutes>supports
+  keyword guard overlap                        0.72           0.62              0.55              0.45
+  embedding similarity                         0.94           0.90              0.61              0.39
+  NLI entailment, all evidence                 0.82           0.44              0.83              0.17
+  NLI entailment, best answer                  0.80           0.49              0.77              0.23
+  NLI contradiction, all evidence              0.44           0.73              0.23              0.77
+  NLI contradiction, best answer               0.40           0.74              0.21              0.79
+  fine-tuned entailment                        0.99           0.81              0.95              0.05
+  fine-tuned contradiction                     0.61           0.97              0.07              0.93
+
+Share of dev pairs each rule accepts
+  rule                                  supports     refutes         nei conflicting       topic
+  keyword guard >= 0.5 (live)                88%         75%         69%         87%        100%
+  embedding >= EMBED_MIN                     96%         90%         74%         95%         32%
+  nliE >= 0.061 (from train)                 70%         20%         20%         50%         23%
+  lineE >= 0.273 (from train)                47%         12%         17%         32%          4%
+  nliC >= 0.165 (from train)                 14%         58%         23%         34%         22%
+  lineC >= 0.135 (from train)                30%         71%         40%         50%         37%
+  ftE >= 0.014 (from val)                    89%         11%         29%         50%          3%
+  ftC >= 0.005 (from val)                    33%         96%         60%         82%         17%
+
+NLI, not trained on AVeriTeC: highest of entailment / neutral / contradiction, share of dev pairs
+  evidence        n  entailment  neutral  contradiction
+  supports      122         56%      33%            11%
+  refutes       305          9%      40%            50%
+  nei            35         11%      69%            20%
+  conflicting    38         32%      45%            24%
+  topic         300          6%      81%            13%
+
+fine-tuned on AVeriTeC: highest of entailment / neutral / contradiction, share of dev pairs
+  evidence        n  entailment  neutral  contradiction
+  supports      122         78%       7%            16%
+  refutes       305          6%       9%            86%
+  nei            35         17%      60%            23%
+  conflicting    38         34%       8%            58%
+  topic         300          1%      92%             7%
+
+Supports / refutes / topic, logistic regression fitted on train, balanced accuracy on dev (chance 33%)
+  keyword + embedding      60%   predicted supports/refutes/topic -> supports: 75/38/9; refutes: 137/125/43; topic: 4/63/233
+  NLI only                 64%   predicted supports/refutes/topic -> supports: 75/16/31; refutes: 33/169/103; topic: 27/51/222
+  all                      73%   predicted supports/refutes/topic -> supports: 90/24/8; refutes: 69/196/40; topic: 14/47/239
+
+Live Qwen judge on 120 dev pairs (0 errors left out)
+  evidence     n  supported  refuted  mixed  unverifiable
+  supports    40         26        9      0             5
+  refutes     40          1       32      0             7
+  topic       40          0       15      0            25
+
+  'supported' verdicts each check would let through (the rest become unverifiable)
+    keyword guard (live)     supports 23/26   refutes 1/1   topic 0/0
+    nliE >= 0.061            supports 16/26   refutes 1/1   topic 0/0
+    lineE >= 0.273           supports 10/26   refutes 1/1   topic 0/0
+    ftE >= 0.014             supports 25/26   refutes 0/1   topic 0/0
+  'refuted' verdicts a contradiction check would let through (today nothing checks them)
+    nliC >= 0.165            supports 3/9   refutes 23/32   topic 4/15
+    lineC >= 0.135           supports 5/9   refutes 25/32   topic 8/15
+    ftC >= 0.005             supports 7/9   refutes 31/32   topic 3/15

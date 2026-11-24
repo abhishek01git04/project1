@@ -1,0 +1,6 @@
+dropped 1 records affected by network failures
+119 already collected, 1 to go. AI model: ollama
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 5788.42it/s]
+[1/1] real det 0.27 | news google-news:8 | fc 0 | ai unverifiable | 155.4s | Brobbey wins Colwill battle - player ratings for S
+done

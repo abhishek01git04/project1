@@ -1,0 +1,24 @@
+AI 'refuted' verdicts: 28 on fake claims (correct), 7 on real claims (false)
+
+threshold  correct kept  false removed  false left   final verdicts: right wrong uncertain  real->Fake
+     none        28/28          0/7           7                      73     2        45          0
+     0.05        26/28          1/7           6                      73     2        45          0
+      0.1        26/28          2/7           5                      73     2        45          0
+      0.2        26/28          3/7           4                      73     2        45          0
+      0.3        26/28          3/7           4                      73     2        45          0
+      0.4        26/28          3/7           4                      73     2        45          0
+      0.5        26/28          3/7           4                      73     2        45          0
+      0.6        26/28          4/7           3                      73     2        45          0
+      0.7        26/28          4/7           3                      73     2        45          0
+      0.8        23/28          5/7           2                      72     2        46          0
+      0.9        22/28          5/7           2                      72     2        46          0
+     0.95        21/28          5/7           2                      72     2        46          0
+
+Final verdict of the real claims the AI wrongly refuted, with no guard:
+  uncertain best ftC 0.06  A photograph from November authentically depicts Pope Leo XIV meeting with hoodie-clad Ame
+  uncertain best ftC 0.54  The Kmart retail chain sold pet monkeys in the 1960s.
+  uncertain best ftC 0.76  Electric vehicle manufacturer Tesla posted videos on Oct. 15 authentically showing the com
+  uncertain best ftC 0.98  Under Democratic Gov. Tim Walz and Lt. Gov. Peggy Flanagan (who is currently running for U
+  uncertain best ftC 0.00  U.S. President Donald Trump said, “We're making money like this country has never made bef
+  uncertain best ftC 0.19  Washington passed a ballot measure that may subject children who want to play in girls' sp
+  uncertain best ftC 0.99  The U.S. was the only opposing nation when the United Nations passed a resolution by a vot
